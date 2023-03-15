@@ -1,23 +1,13 @@
-// var HeadTittle = document.querySelector("#header-title");
-// HeadTittle.style.borderBottom = "solid 3px #000";
 
-var items = document.getElementsByTagName("li");
+var items = document.querySelectorAll("li");
 for(let i=0; i<items.length; i++){
     items[i].style.backgroundColor = "#f4f4f4";
 }
+items[1].style.backgroundColor = "green";
 
+var item = document.querySelector(".list-group-item:last-child");
+  item.style.color="white";
 
-
-// UlElement = document.getElementById("items");
-// li = document.createElement("li");
-// li.textContent = "Hello word";
-// li.style.fontWeight = "bold";
-// UlElement.append(li);
-
-// var items = document.getElementsByTagName("li");
-// for(let i=0; i<items.length; i++){
-//     items[i].style.backgroundColor = "#f4f4f4";
-// }
 
 
 
